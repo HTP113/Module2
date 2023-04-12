@@ -4,16 +4,23 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        int choice = -1;
-        Scanner input = new Scanner(System.in);
-        while (choice != 0){
-            System.out.print("1.Print the rectangle \n");
-            System.out.print("2.Print the square triangle \n");
-            System.out.print("3.Print isosceles triangle \n");
-            System.out.print("0.Exit \n");
-            System.out.println("Enter your choice: ");
-            choice = input.nextInt();
-
+        int point = 0;
+        int count = 0;
+        System.out.println("Các số nguyên tố từ 2 đến 100:");
+        for (int N = 2;N < 100;N++){
+            if (point<100){
+                for(int j = 1;j <=N;j++){
+                    if (N % j ==0){
+                        count += 1;
+                    }
+                }
+                if (count == 2){
+                    System.out.println(N);
+                }
+                count = 0;
+            }else {
+                break;
+            }
         }
     }
 }
