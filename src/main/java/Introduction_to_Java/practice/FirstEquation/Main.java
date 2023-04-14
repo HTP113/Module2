@@ -1,4 +1,4 @@
-package Introduction_to_Java.practice.SystemTime.FirstEquation;
+package Introduction_to_Java.practice.FirstEquation;
 
 import java.util.Scanner;
 

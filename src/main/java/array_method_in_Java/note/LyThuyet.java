@@ -1,131 +1,50 @@
 package array_method_in_Java.note;
 
-//System.out.println(arrayTotring(numbers));
-//        reverseArray(numbers);
-//        System.out.println(arrayTotring(numbers));
-//
-//
-//        }
-//    public static void basic() {
-//        int a = 5;
-//        int b = 2;
-//
-//        System.out.println(a + " cong " + b + " = " + (a+b));
-//
-//        System.out.printf("%s cong %s = %s\n", a, b, (a+b));
-//    }
-//public static int findMaxValue(int [] numbers){
-//        int max = numbers[0];
-//        for (int i = 1;i< numbers.length;i++){
-//        if (max < numbers[i]) {
-//        max = numbers[i];
-//        }
-//        }
-//        return max;
-//        }
-//// viet ham dao nguoc mang// int[] numbers = {1, 9, 2, 4};
-//public static void reverseArray(int[] numbers){
-//        for (int i = 0; i < numbers.length / 2; i++){
-//        int temp = numbers[i];
-//        numbers[i] = numbers[numbers.length - 1- i];
-//        numbers[numbers.length - 1 -i] = temp;
-//        }
-//        }
-//
-//public static String arrayTotring(int[] numbers){
-//        String str = "[";
-//        for (int i = 0; i < numbers.length; i++){
-//        str += numbers[i];
-//        if (i < numbers.length - 1){
-//        str += ", ";
-//        }else {
-//        str += "]";
-//        }
-//        }
-//        return str;
-//        }
-//        }
-
 public class LyThuyet {
-        //public class Main {
-//    public static void main(String[] args) {
-//BIẾN MẢNG VÀ ĐỐI TƯỢNG MẢNG----------------------------------
-//        Đối tượng mảng(array object):Là một đối tượng thực sự trong bộ nhớ,được cấp phát bộ nhớ động
-//        khi khởi tạo mảng bằng cú pháp new.Nó chứa dữ liệu và các phương thức để truy cập và thao tác
-//        với dữ liệu đó.
+    public static void main(String[] args) {
+          /* Sử dụng
+    System.out.printf();
+Định dạng kiểu số nguyên (Integer):
+    %d : sẽ in số nguyên như tham số đầu vào.
+    %6d : sẽ in số nguyên như tham số đầu vào. Nếu số chữ số nhỏ hơn 6, đầu ra sẽ được thêm khoảng trắng ở bên trái.
+    %-6d : sẽ in số nguyên như tham số đầu vào. Nếu số chữ số nhỏ hơn 6, đầu ra sẽ được thêm khoảng trắng ở bên phải.
+    %06d : sẽ in số nguyên như tham số đầu vào. Nếu số chữ số nhỏ hơn 6, đầu ra sẽ được thêm ký tự số 0 ở bên trái.
+    %.2d : in tối đa 2 chữ số của số nguyên.
+Định dạng kiểu chuỗi (String):
+    %s : sẽ in chuỗi tham số đầu vào.
+    %15s : sẽ in chuỗi như tham số đầu vào. Nếu số chữ số nhỏ hơn 15, đầu ra sẽ được thêm khoảng trắng ở bên trái.
+    %-6s : sẽ in chuỗi như tham số đầu vào. Nếu số chữ số nhỏ hơn 6, đầu ra sẽ được thêm khoảng trắng ở bên phải.
+    %.8s : in tối đa tối chuỗi 8 ký tự.
+Định dạng kiểu số thực (Float):
+    %f : sẽ in số thực như tham số đầu vào.
+    %15f : sẽ in số thực như tham số đầu vào. Nếu số chữ số nhỏ hơn 15, đầu ra sẽ được thêm khoảng trắng ở bên trái.
+    %.8f : hiển thị tối đa 8 chữ số thập phân của số.
+    %9.4f : hiển thị tối đa 4 chữ số thập phân của số. Đầu ra sẽ chiếm ít nhất 9 ký tự. Nếu số chữ số không đủ, nó sẽ được đệm khoảng trắng.
+    %4$2s: %4$ đại diện cho đối số thứ 4
+    %1$2s: %1$ đại diện cho đối số thứ 1
+    %3$2s: %3$ đại diện cho đối số thứ 3
+    %2$2s: %2$ đại diện cho đối số thứ 2
+    2s: độ rộng 2 khoảng trắng
+*/
 
-//        Biến mảng(array variable):Là một biến tham chiếu(reference variable)đến đối tượng mảng trong
-//        bộ nhớ.Biến mảng chỉ chứa địa chỉ bộ nhớ của đối tượng mảng,không chứa dữ liệu thực tế của
-//        mảng đó.Biến mảng được sử dụng để tham chiếu đến đối tượng mảng và thực hiện các thao tác
-//
-////        VD:int arr=new int[10];
-////        arr là biến mảng chỉ lưu địa chỉ vùng nhớ của đối tượng mảng mà không lưu trữ dữ liệu
-////        new int[10] là đối tượng mảng có vùng nhớ chưa 10 giá trị  trên đối tượng mảng đó.
-//
 
-//        Array------------------------------------------
-//        - Biến đặc biệt, lưu trữ được nhiều giá trị;
-//        - Các giá trị cùng kiểu dữ liệu, khác nhau về chỉ số;
-//        - Tên mảng, các phần tử, chỉ số, độ dài;
+        System.out.printf("Integer : %d\n", 15);
+        System.out.printf("Floating point number with 3 decimal digits: %.3f \n", 1.21312939123); //1.213
+        System.out.printf("Floating point number with 8 decimal digits: %.8f \n", 1.21312939123);
+        System.out.printf("String: %s, integer: %5d, float: %6.3f \n", "Hello", 589, 9.231435);
+        System.out.printf("Re-order output %4$2s %1$2s %3$2s %2$2s \n", "a", "b", "c", "d");
 
-//         Khai báo mảng ------------------------------------------------
-//        elementType[] arrayRefVar;
-//        elementType: kiểu dữ liệu các phần tử trong mảng;
-//        arrayRefVar: tên mảng;
-//        -   Khi khai báo biến mảng thì sẽ không có việc cấp phát bộ nhớ ngay cho các phần tử
-//        của mảng. Chỉ có việc cấp phát bộ nhớ cho tham chiếu đến mảng.
-//        -   Nếu không gắn tham chiếu đến mảng thì giá trị của biến mảng là null
-//        Ví dụ: khai báo mảng số thực myList:
-//        double[] myList;
-//        myList là 1 biến chứa tham chiếu đến 1 mảng
-//        Tuy nhiên tường gọi myList là 1 mảng
-
-//        Khởi tạo mảng ------------------------------------------
-     //   arrayRefVar = new elementType[arraySize];
-
-//         *********** Khai báo, khởi tạo và gắn tham chiếu cho biến mảng --------------------------------
-    //    elementType[] arrayRefVar =  new elementType[arraySize];
-//        hoặc
-      //  elementType arrayRefVar[] = new elementType[arraySize];
-
-//         - Gán giá trị cho các phần tử mảng ----------------------------
-//        arrayRefVar[index] = value;
-//        Ví dụ: khai báo String gồm 10 phần tử:
-//        str là biến mảng
-//        new String[10] là đối tượng mảng
-//        String[] str = new String[10];
-//        int[] array = new int[5];
-//        array[0] = 0;
-//        array[1] = 1;
-//        array[2] = 2;
-//        array[3] = 3;
-//        array[4] = 5;
+//        Scanner input = new Scanner(System.in);
+//        System.out.print("Nhập tên: ");
+//        String name = input.nextLine();
+//        System.out.print("Nhập tuổi: ");
+////        int age = input.nextInt();                    // bị trôi lệnh tại đây
+//        int age = Integer.parseInt(input.nextLine());   //Đã xử lý trôi lệnh
+////        input.nextLine();
+//        System.out.print("Nhập địa chỉ: ");
+//        String address = input.nextLine();
 //
-//        //--------------Khởi tạo nhanh mảng-------------
-//        String[] str = {"h","e","l","l","o"};
-//        int[] nums = {1,2,3,4};
-//
-//
-//        //-----------------Cách khác----------------------
-//        double[] arr;
-//        int size = 5;
-//        arr = new double[size];
-//
-//        //*Nhập liệu cho mảng
-//        System.out.println("Input data for array");
-//        for (int i = 0; i < arr.length; i++){
-//            System.out.printf("arr[%d] = ", i);
-//            arr[i] = scanner.nextDouble();
-//        }
-//
-//        //*Hiển thị dữ liệu mảng
-//
-//        System.out.println("Show data of array:");
-//        for (double i: arr){ //for-each: Dùng trong trường hợp không thay đổi dữ liệu mảng
-//            System.out.println(i);
-//        }
-//
-//    }
-//}
+//        System.out.println(name + " -- " + age + " -- " + address);
+    }
     }
 

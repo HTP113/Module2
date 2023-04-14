@@ -1,4 +1,4 @@
-package Introduction_to_Java.practice.SystemTime.UseOperator;
+package Introduction_to_Java.practice.UseOperator;
 
 import java.util.Scanner;
 

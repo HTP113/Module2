@@ -1,4 +1,4 @@
-package Introduction_to_Java.practice.SystemTime;
+package Introduction_to_Java.practice;
 
 import java.util.Date;
 

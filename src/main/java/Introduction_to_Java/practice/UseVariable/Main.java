@@ -1,4 +1,4 @@
-package Introduction_to_Java.practice.SystemTime.UseVariable;
+package Introduction_to_Java.practice.UseVariable;
 
 public class Main {
     public static void main(String[] args) {

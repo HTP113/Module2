@@ -1,4 +1,4 @@
-package Introduction_to_Java.practice.SystemTime.DayInMonth;
+package Introduction_to_Java.practice.DayInMonth;
 
 import java.util.Scanner;
 

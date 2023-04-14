@@ -1,4 +1,4 @@
-package Introduction_to_Java.practice.SystemTime.CheckLeapYear;
+package Introduction_to_Java.practice.CheckLeapYear;
 
 import java.util.Scanner;
 
