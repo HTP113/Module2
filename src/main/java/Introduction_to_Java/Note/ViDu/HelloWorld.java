@@ -70,7 +70,7 @@ Khi chạy chương trình, JVM sẽ tải và thực thi mã bytecode Java, và
  String name = "John Smith";
  byte b = 100;  dùng để lưu trữ giá trị số nguyên trong phạm vi từ -128 đến 127
  short s = 1000;  dùng để lưu trữ giá trị số nguyên trong phạm vi từ -32,768 đến 32,767.
- dùng để lưu trữ giá trị số nguyên trong phạm vi từ -9,223,372,036,854,775,808 đến 9,223,372,036,854,775,807. long l = 1234567890;
+ dùng để lưu trữ giá trị số nguyên trong phạm vi từ -9,223,372,036,854,775,808 đến 9,223,372,036,854,775,807.
  float f = 3.14f;  dùng để lưu trữ giá trị số thực có độ chính xác đơn giản.
  long l = 1234567890;  dùng để lưu trữ giá trị số nguyên trong phạm vi từ -9,223,372,036,854,775,808 đến 9,223,372,036,854,775,807
 */

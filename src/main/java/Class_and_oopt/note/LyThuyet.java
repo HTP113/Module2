@@ -8,6 +8,16 @@ public class LyThuyet {
 
 
 /**
+ *
+ *
+ * --Stack là một vùng nhớ được sử dụng để lưu trữ các tham số và các biến local của phương thức mỗi khi một phương thức được gọi ra.
+ *
+ *
+ *
+ * -- Heap là một vùng nhớ trong bộ nhớ được sử dụng để lưu trữ các đối tượng
+ *
+ *
+ *  khi từ khóa new được gọi ra, các biến static và các biến toàn cục (biến instance)
   ------Lớp (Class): Là một khuôn mẫu (template) cho một nhóm đối tượng có cùng tính chất.
   ------------Lớp định nghĩa các thuộc tính và phương thức để tạo ra các đối tượng.
 
@@ -38,11 +48,13 @@ public class LyThuyet {
          Constructor –phươngthức khởitạo: làmộtphươngthức đặcbiệt
 
 ---------------Một sốquyướckhiđặttênlớp:
+         tên lớp phải viết hoa
         Tênlớp nênlàmột danhtừ
          Tênlớp nêntuântheo quytắcCamel
          Tênlớp nênđơngiản,cónghĩa
          Tênlớp không thểtrùng với cáctừkhoá trong Java
-         Tênlớp không đượcbắtđầubằng chữsố.Cóthểbắtđầubằngkýtựdollar
+         Tênlớp không đượcbắtđầubằng chữsố.
+         Cóthểbắtđầubằngkýtựdollar
         ($)hoặcdấugạchdưới (_)
 
  Constructor làmộtphươngthức đặcbiệtgiúpkhởitạođốitượng

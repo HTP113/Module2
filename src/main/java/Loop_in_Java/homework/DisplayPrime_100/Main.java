@@ -1,7 +1,5 @@
 package Loop_in_Java.homework.DisplayPrime_100;
 
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
         int point = 0;
